@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../CSS/Normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../CSS/Styles.css">
+</head>
+<body>
+    <header class="header">
+        <a href="../index.html">
+            <img class="header__logo" src="../img/logo.png" alt="Logotipo">
+        </a>
+    </header>
+
+    <nav class="navegacion">
+        <a class="navegacion__enlace " href="../index.html">Tienda</a>
+        <a class="navegacion__enlace " href="../Nosotros.html">Sobre Nosotros</a>
+        
+    </nav>
+
+    <main class="contenedor">
+        <h1>JavaScript</h1>
+        
+
+        <div class="camisa" id="2">
+            <img class="camisa__imagen" src="../img/12.jpg" alt="Imagen del producto">
+
+            <div class="camisa__contenido">
+                <p>Mauris eu tortor quam. Integer ut erat vitae dolor consectetur mollis quis vel nibh. Morbi nisl ex, vestibulum nec sapien
+                eu, auctor malesuada dui. Vestibulum nec dictum mauris, sed pellentesque ligula. Praesent bibendum consectetur ipsum nec accumsan.
+                Duis luctus, augue ac sollicitudin luctus, magna tellus sollicitudin enim, tempor blandit arcu massa quis nisi. Mauris bibendum elit
+                vel molestie viverra.</p>
+
+                <form class="formulario">
+                    <select class="formulario__campo">
+                        <option disabled selected>--Selecciona una talla--</option>
+                        <option>Chica</option>
+                        <option>Mediana</option>
+                        <option>Grande</option>
+                    </select>
+
+                    <input class="formulario__campo" type="number" placeholder="Cantidad" min="1" > <!--step="10"-->
+                    <input class="formulario__submit" type="submit" value="Agregar al Carrito">
+
+                </form>
+            </div>
+        </div> <!-- Fin Camisa-->
+
+
+
+    </main>
+
+    <footer class="footer">
+        <p class="footer__texto">Front End Store -- Todos los derechos Reservados 2022</p>
+    </footer>
+</body>
+</html>
